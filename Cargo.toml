@@ -1,0 +1,11 @@
+[package]
+name = "cpf_quilingue"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.30"
+egui = "0.30"
+cpf = "0.3.2"
+image = { version = "0.25", default-features = false, features = ["png"] }
+
